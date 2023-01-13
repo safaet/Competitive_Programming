@@ -1,0 +1,4 @@
+Enter employe name: 
+Enter employe salary: 
+Enter employe Service in year
+100
