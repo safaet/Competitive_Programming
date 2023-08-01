@@ -1,4 +1,5 @@
-Enter employe name: 
-Enter employe salary: 
-Enter employe Service in year
-100
+ID: C191098
+Name: Safaet Jaman Arman
+Department: CSE
+Semester: 6th
+Section: 6AM
