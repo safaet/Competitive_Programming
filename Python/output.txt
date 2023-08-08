@@ -1,2 +1,5 @@
-Hello
-
+ID: C191098
+Name: Safaet Jaman Arman
+Department: CSE
+Semester: 6th
+Section: 6AM
