@@ -1,14 +1,17 @@
+'''
+Problem Link: https://www.geeksforgeeks.org/problems/count-digits5716/1
+'''
+
 class Solution:
     def evenlyDivides (self, N):
         cnt = 0
-        n= N
+        n= str(N)
         
-        while n>0:
-            r = n % 10
-            # print(r)
-            if N % r == 0:
-                cnt = cnt + 1
-            n = n//10
+        for i in n:
+            if int(i) ==0:
+                continue
+            elif N%int(i) == 0:
+                cnt = cnt+1
             
         return cnt
     
