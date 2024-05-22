@@ -1,6 +1,10 @@
 '''Problem Link: https://leetcode.com/problems/palindrome-number/
 '''
 
+import sys
+sys.stdout = open('output.txt', 'w')
+sys.stdin = open('input.txt', 'r')
+
 class Solution:
     
     def isPalindrome(self, x):

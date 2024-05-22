@@ -2,6 +2,11 @@
 Problem Link: https://www.geeksforgeeks.org/problems/count-digits5716/1
 '''
 
+import sys
+sys.stdout = open('output.txt', 'w')
+sys.stdin = open('input.txt', 'r')
+
+
 class Solution:
     def evenlyDivides (self, N):
         cnt = 0
@@ -18,4 +23,3 @@ class Solution:
 sol = Solution()
 
 print(sol.evenlyDivides(2446))
-    
