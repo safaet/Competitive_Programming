@@ -1,7 +1,7 @@
 class Solution:
     #Function to sort the array using bubble sort algorithm.
     def bubbleSort(self,arr, n):
-        n = len(arr)
+        swapped = False
 
         for i in range(n):
 
